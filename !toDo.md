@@ -4,4 +4,5 @@
 [] Assets -> IMGS & JS & CSS;
 [] Estilizar a página;
 [] Fazer a lógica;
-[] 'Refatorar' o código criando diversas funções
+[] 'Refatorar' o código criando diversas funções;
+[] Fazer animações CSS para classes que serão adicionadas via Javascript
