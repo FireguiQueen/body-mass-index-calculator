@@ -10,6 +10,9 @@
 - [ ] Rafatorar o código CSS;
 - [ ] Finalizar editando o readme do projeto.
 
+</br>
+
+________________________________________________
 
 ## Informações importantes 
 * Não tenho como objetivo fazer um HTML e CSS _extremamente_ limpos 
