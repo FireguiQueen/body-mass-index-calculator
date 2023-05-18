@@ -8,7 +8,11 @@
 [] 'Refatorar' o código criando diversas funções;
 [] Fazer animações CSS para classes que serão adicionadas via Javascript;
 [] Rafatorar o código CSS;
-[] Finalizar editando o readme do projeto
+[] Finalizar editando o readme do projeto.
 
 
-## Informações
+## Informações importantes 
+* Não tenho como objetivo fazer um HTML e CSS _extremamente_ limpos 
+* A longa duração do vídeo pode ser devido ao que eu faço em casa. Por ex.: tomar banho, comer..
+* Possívelmente terei dúvidas na hora da criação do projeto, irei pesquisar durante a gravação
+* Não me importo 
