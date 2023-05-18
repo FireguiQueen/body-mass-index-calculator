@@ -8,7 +8,7 @@
 [] 'Refatorar' o código criando diversas funções;
 [] Fazer animações CSS para classes que serão adicionadas via Javascript;
 [] Rafatorar o código CSS;
-[] Fina
+[] Finalizar editando o readme do projeto
 
 
 ## Informações
