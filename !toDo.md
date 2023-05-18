@@ -15,4 +15,5 @@
 * Não tenho como objetivo fazer um HTML e CSS _extremamente_ limpos 
 * A longa duração do vídeo pode ser devido ao que eu faço em casa. Por ex.: tomar banho, comer..
 * Possívelmente terei dúvidas na hora da criação do projeto, irei pesquisar durante a gravação
-* Não farei um código JS  
+* Faço pesquisas em inglês, apesar dele não ser perfeito (e está longe disso), eu entendo bem  
+* Meu conhecimento é limitado, o código de JS não estará limpo, apenas quero fazer este projeto
