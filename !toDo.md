@@ -20,3 +20,4 @@ ________________________________________________
 * Possívelmente terei dúvidas na hora da criação do projeto, irei pesquisar durante a gravação
 * Faço pesquisas em inglês, apesar dele não ser perfeito (e está longe disso), eu entendo bem  
 * Meu conhecimento é limitado, o código de JS não estará limpo, apenas quero fazer este projeto
+* Vídeo feito com apenas um propósito.: mostrar que eu fiz este projeto do 0 e sozinho
