@@ -15,4 +15,4 @@
 * Não tenho como objetivo fazer um HTML e CSS _extremamente_ limpos 
 * A longa duração do vídeo pode ser devido ao que eu faço em casa. Por ex.: tomar banho, comer..
 * Possívelmente terei dúvidas na hora da criação do projeto, irei pesquisar durante a gravação
-* Não me importo 
+* Não farei um código JS  
