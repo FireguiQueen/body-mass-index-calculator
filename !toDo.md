@@ -2,6 +2,7 @@
 <!-- TODO -->
 - [ ] Iniciar a gravação;
 - [ ] Criar o index principal e fazer a estrutura HTML;
+- [ ] Para SEO (meta), adicionar.: description, keywords & author;
 - [ ] Assets -> IMGS & JS & CSS;
 - [ ] Estilizar a página;
 - [ ] Fazer a lógica;
