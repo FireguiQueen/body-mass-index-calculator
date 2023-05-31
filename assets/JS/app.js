@@ -2,9 +2,10 @@ const form = document.querySelector('#formulario');
 
 form.addEventListener('submit', function(e){
     e.preventDefault();
+    document.querySelector('#imcOutput').className = 'typing'
+
     const personHeight = document.querySelector('#altura').value;
     const personWeight = document.querySelector('#peso').value;
-
     function calcIMC(){
         const calcIMC = personWeight / (personHeight**2) 
         if(calcIMC < 18.5){
@@ -36,7 +37,8 @@ form.addEventListener('submit', function(e){
     /* Limpa os inputs das respostas anteriores */
     function cleanInput(){
         const input = document.querySelectorAll('input[type=number]');
-        input.forEach(e => e.value = '')
+        input.forEach(e => e.value = '');
+        document.querySelector('#imcOutput').classList.remove('typing')
     }
 
 

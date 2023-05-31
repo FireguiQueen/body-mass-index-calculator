@@ -119,9 +119,10 @@ input:focus ~ h2{
 /* Animação: Resultado IMC sendo digitado */
 
 .typing{
-    animation: typeIMCResult 2s linear forwards, border 50ms linear infinite;
+    animation: typeIMCResult 400ms linear forwards, border 50ms linear infinite;
     height: 25px;
-    background-color: red;
+    font-size: xx-larger;
+    background-color: rgba(252, 252, 252, 0);
 }
 
 
@@ -129,7 +130,7 @@ input:focus ~ h2{
     from{
         width: 0px;
     } to{
-        width: 100%;
+        width: 45%;
     }
 }
 
