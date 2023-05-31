@@ -11,7 +11,7 @@
     --background-hover-button: #42ebebb6;
     
     --background-output:rgba(148, 237, 188, 0.974);
-    --color-output: #5b5bb3;
+    --color-output: #393981;
 
 }
 
@@ -90,7 +90,6 @@ button:hover{
 }
 
 
-
 #output{
     margin: 25px 0 5px 0;
     font-size: xx-large;
@@ -120,12 +119,10 @@ input:focus ~ h2{
 
 /* Animação: Resultado IMC sendo 'digitado' */
 .typing{
-    animation: typeIMCResult 200ms linear forwards, border 50ms linear infinite;
+    animation: typeIMCResult 200ms linear forwards;
     font-size: xx-larger;
     background-color: var(--background-output);
 }
-
-
 
 @keyframes typeIMCResult{
     from{
@@ -135,11 +132,3 @@ input:focus ~ h2{
     }
 }
 
-
-@keyframes border{
-    from{
-        border-right: 1px solid white;
-    } to{
-        border-right: 1px solid transparent;
-    }
-}

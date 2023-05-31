@@ -8,7 +8,7 @@
 - [X] Fazer a lógica;
 - [X] 'Refatorar' o código criando diversas funções;
 - [X] Fazer animações CSS para classes que serão adicionadas via Javascript;
-- [ ] 'Rafatorar' o código CSS;
+- [X] 'Rafatorar' o código CSS;
 - [ ] Finalizar editando o readme do projeto.
 
 </br>
