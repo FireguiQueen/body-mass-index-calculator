@@ -1,9 +1,9 @@
 # To Do   
 <!-- TODO -->
-- [ ] Iniciar a gravação;
-- [ ] Criar o index principal e fazer a estrutura HTML;
-- [ ] Para SEO (meta), adicionar.: description, keywords & author;
-- [ ] Assets -> IMGS & JS & CSS;
+- [X] Iniciar a gravação;
+- [X] Criar o index principal e fazer a estrutura HTML;
+- [X] Para SEO (meta), adicionar.: description, keywords & author;
+- [X] Assets -> IMGS & JS & CSS;
 - [ ] Estilizar a página;
 - [ ] Fazer a lógica;
 - [ ] 'Refatorar' o código criando diversas funções;

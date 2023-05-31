@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link files - style and favicon -->
+    <link href="./assets/CSS/style.css" rel="stylesheet" type="text/css"/>
+    <link href="./assets/IMGs/calculator-icon-favicon--icons8.png" rel="icon" type="image/x-icon"/>
+    
+    <!-- main SEO -->
+    <meta name="description" content="Calcule seu IMC aqui!" />
+    <meta name="keywords" content="Imc, calculadora IMC" />
+    <meta name="author" content="Guilherme P." />
+    <title>IMC - Calculadora</title>
+    
+</head>
+<body>
+    <main>
+        <form>
+            <fieldset id="input-inf">
+                <label>
+                    <h2>Altura </h2>
+                    <input id="height" type="number" required placeholder="1.72m" step="0.03"/>
+                </label>
+
+                <label>
+                    <h2>Peso </h2>
+                    <input id="weight" type="number" required placeholder="68kg"/>
+                </label>
+
+                <button type="submit">enviar </button>
+            </fieldset>
+
+            <fieldset id="output-inf">
+                <div id="">.. </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
