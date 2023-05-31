@@ -4,9 +4,28 @@ form.addEventListener('submit', function(e){
     e.preventDefault();
     document.querySelector('#imcOutput').className = 'typing'
 
-    const personHeight = document.querySelector('#altura').value;
-    const personWeight = document.querySelector('#peso').value;
+    calcIMC();    
+    sendMensage(calcIMC());
+    cleanInput();
+});
+
+    
+    /* Envia o IMC para o usuário */
+    function sendMensage(e){
+        document.getElementById('imcOutput').innerText = e
+    }
+    
+    
+    /* Limpa os inputs das respostas anteriores */
+    function cleanInput(){
+        const input = document.querySelectorAll('input[type=number]');
+        input.forEach(e => e.value = '');
+    }
+
+
     function calcIMC(){
+        const personHeight = document.querySelector('#altura').value;
+        const personWeight = document.querySelector('#peso').value;
         const calcIMC = personWeight / (personHeight**2) 
         if(calcIMC < 18.5){
             return 'Abaixo do peso'
@@ -24,24 +43,4 @@ form.addEventListener('submit', function(e){
             return 'Erro - Favor verificar a altura e idade'
         }
     }
-    
-    sendMensage(calcIMC());
-    cleanInput();
-})
-
-    
-    /* Envia o IMC para o usuário */
-    function sendMensage(e){
-        document.getElementById('imcOutput').innerText = e
-    }
-    
-    
-    /* Limpa os inputs das respostas anteriores */
-    function cleanInput(){
-        const input = document.querySelectorAll('input[type=number]');
-        input.forEach(e => e.value = '');
-    }
-
-
-    
 
