@@ -9,7 +9,7 @@
 - [X] 'Refatorar' o código criando diversas funções;
 - [X] Fazer animações CSS para classes que serão adicionadas via Javascript;
 - [X] 'Rafatorar' o código CSS;
-- [ ] Finalizar editando o readme do projeto.
+- [X] Finalizar editando o readme do projeto.
 
 </br>
 
@@ -24,6 +24,7 @@ ________________________________________________
 * Vídeo feito com apenas um propósito.: mostrar que eu fiz este projeto do 0 e sozinho
 
 ## Notas importantes
+- Peso abaixo: _menor do que 18.5_
 - Peso normal: _entre 18,5 e 24,9_
 - Sobrepeso: _entre 25 e 29,9_
 - Obesidade grau I: _entre 30 e 34,9_
