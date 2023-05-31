@@ -3,11 +3,16 @@
 Tentei deixar o mais agradável possível a estilização do site. 
 Por idiotices (usando javascript), demorei mais do que deveria para concluir este humilde projeto.
 
+#### OBS
+!Este site não está responsível. 
+
 </br>
 
 ## Ferramentas utilizadas
 - Icons8 [<a href="https://icons8.com/">....</a>]
 - Coolors.co [<a href="https://coolors.co/">....</a>]
+
+</br>
 
 ## Notas importantes
 - Peso abaixo: _menor do que 18.5_
