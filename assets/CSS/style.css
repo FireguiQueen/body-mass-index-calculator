@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+
+    background-image: linear-gradient(rgb(23, 22, 22), rgb(25, 22, 19));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: rgb(97, 122, 134);
+    width: 29%;
+    height: 57%;
+    border-radius: 7px;
+    padding-top: 16px;
+}
+
+fieldset{
+    border: none;
+    color: rgb(4, 4, 4);
+
+    width: 100%;
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+input, button{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+input{
+    height: 36px;
+    padding-left: 5.2px; 
+}
+input:focus{
+    border: none;
+    outline: none;
+
+}
+
+button{
+    height: 45px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+h2{
+    margin: 2.3px;
+    transition: transform 340ms cubic-bezier(0.175, 0.885, 0.32, 1.075);
+
+}
+
+
+label{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* Animação: movimento horizontal para tags h2 */
+input:focus ~ h2{
+    transform: translateX(45%);
+
+    transition: transform 340ms cubic-bezier(0.175, 0.885, 0.32, 1.775);
+}
