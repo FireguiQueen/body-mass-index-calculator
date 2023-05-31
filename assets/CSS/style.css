@@ -3,45 +3,43 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 :root{
     --background-body: linear-gradient(45deg, #EDEDFF, #9292FF, #5d5dd2, #4949FF); 
     --background-app: #414177;
     --color-app: #C8C8FF;
     --background-hover-button: #42ebebb6;
+    
+    --background-output:rgba(148, 237, 188, 0.974);
+    --color-output: #5b5bb3;
+
 }
 
 body{
     background-image: var(--background-body);
-    /* background-image: url('../IMGs/calculator-icon-favicon--icons8.png'); */
     height: 100vh;
     width: 100%;
     background-attachment: fixed;
     background-repeat: repeat;
-    background-size: 300%;
-    animation: moveBackground 8s alternate linear infinite;
-
-    /* background-image: linear-gradient(rgb(23, 22, 22), rgb(25, 22, 19)); */
-
+    background-size: 300%;  
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: moveBackground 8s alternate linear infinite;
 }
 
 
 main{
     background-color: var(--background-app);
-    width: 29.5%;
-    height: 59%;
     border-radius: 7px;
     padding-top: 16px;
+    width: 29.5%;
+    height: 59%;
 }
 
 fieldset, #output{
     border: none;
     color: var(--color-app);
-
     width: 100%;
     padding: 0 20px 0 20px;
     display: flex;
@@ -49,6 +47,7 @@ fieldset, #output{
     flex-direction: column;
     gap: 40px;
 }
+
 legend{
     text-align: center;
     font-size: xx-large;
@@ -67,7 +66,6 @@ input{
 input:focus{
     border: none;
     outline: none;
-
 }
 
 button{
@@ -79,15 +77,12 @@ button{
 h2{
     margin: 2.3px;
     transition: transform 340ms cubic-bezier(0.175, 0.885, 0.32, 1.075);
-
 }
-
 
 label{
     display: flex;
     flex-direction: column-reverse;
 }
-
 
 button:hover{
     background-color: var(--background-hover-button);
@@ -98,16 +93,22 @@ button:hover{
 
 #output{
     margin: 25px 0 5px 0;
+    font-size: xx-large;
+    height: 40px;
+    color: var(--color-output);
 }
 
-/* Animação: movimento horizontal para tags h2 */
+
+
+
+/* Animação: Movimenta a tag h2 (altura e peso) ao input ficar em 'focus' */
 input:focus ~ h2{
     transform: translateX(45%) rotate(1.7deg);
-
     transition: transform 340ms cubic-bezier(0.175, 0.885, 0.32, 1.775);
 }
 
-/* Animação: movimentação background */
+
+/* Animação: Movimentação do background */
 @keyframes moveBackground {
     0%{
         background-position: 0 45deg;
@@ -116,23 +117,24 @@ input:focus ~ h2{
     }
 }
 
-/* Animação: Resultado IMC sendo digitado */
 
+/* Animação: Resultado IMC sendo 'digitado' */
 .typing{
-    animation: typeIMCResult 400ms linear forwards, border 50ms linear infinite;
-    height: 25px;
+    animation: typeIMCResult 200ms linear forwards, border 50ms linear infinite;
     font-size: xx-larger;
-    background-color: rgba(252, 252, 252, 0);
+    background-color: var(--background-output);
 }
+
 
 
 @keyframes typeIMCResult{
     from{
         width: 0px;
     } to{
-        width: 45%;
+        width: 100%;
     }
 }
+
 
 @keyframes border{
     from{

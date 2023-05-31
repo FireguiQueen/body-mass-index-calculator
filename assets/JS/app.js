@@ -9,17 +9,19 @@ form.addEventListener('submit', function(e){
     function calcIMC(){
         const calcIMC = personWeight / (personHeight**2) 
         if(calcIMC < 18.5){
-            return 'abaixo'
+            return 'Abaixo do peso'
         } else if(calcIMC >= 18.5 && calcIMC <= 24.9){
-            return 'normal'
+            return 'Normal'
         } else if(calcIMC >=25 && calcIMC <= 29.9){
-            return 'sobrepeso'
+            return 'Sobrepeso'
         } else if(calcIMC >=30 && calcIMC <= 34.9){
-            return 'obesidadeI'
+            return 'Obesidade I'
         } else if(calcIMC >=35 && calcIMC <= 39.9){
-            return 'obesidadeII'
-        }  else{
-            return 'obesidadeIII'
+            return 'Obesidade II'
+        }  else if (calcIMC >= 40){
+            return 'Obesidade III'
+        } else {
+            return 'Erro - Favor verificar a altura e idade'
         }
     }
     
@@ -38,7 +40,6 @@ form.addEventListener('submit', function(e){
     function cleanInput(){
         const input = document.querySelectorAll('input[type=number]');
         input.forEach(e => e.value = '');
-        document.querySelector('#imcOutput').classList.remove('typing')
     }
 
 

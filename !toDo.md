@@ -5,9 +5,9 @@
 - [X] Para SEO (meta), adicionar.: description, keywords & author;
 - [X] Assets -> IMGS & JS & CSS;
 - [X] Estilizar a página;
-- [ ] Fazer a lógica;
-- [ ] 'Refatorar' o código criando diversas funções;
-- [ ] Fazer animações CSS para classes que serão adicionadas via Javascript;
+- [X] Fazer a lógica;
+- [X] 'Refatorar' o código criando diversas funções;
+- [X] Fazer animações CSS para classes que serão adicionadas via Javascript;
 - [ ] 'Rafatorar' o código CSS;
 - [ ] Finalizar editando o readme do projeto.
 
