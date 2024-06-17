@@ -1,16 +1,12 @@
 # Sobre
-É basicamente isso mesmo, uma calculadora para você saber seu IMC. </br>
-Tentei deixar o mais agradável possível a estilização do site. 
-Por idiotices (usando javascript), demorei mais do que deveria para concluir este humilde projeto.
+Calcule seu IMC informando peso e altura. 
 
-#### OBS
-!Este site não está responsível. 
 
 </br>
 
 ## Ferramentas utilizadas
-- Icons8 [<a href="https://icons8.com/">....</a>]
-- Coolors.co [<a href="https://coolors.co/">....</a>]
+- [Icons8](https://icons8.com/)
+- [Coolors.co](https://coolors.co/)
 
 </br>
 
