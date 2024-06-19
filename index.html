@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link files - style and favicon -->
+    <link href="./src/app/style.css" rel="stylesheet" type="text/css"/>
+    <link href="./src/assets/icons/calculator.png" rel="icon" type="image/x-icon"/>
+    
+    <!-- main SEO -->
+    <meta name="description" content="Calc your BMI here." />
+    <meta name="keywords" content="BMI, body mass index, calc BMI, calc body mass index" />
+    <meta name="author" content="Guilherme P." />
+    <title>Body mass index calc</title>
+    
+</head>
+<body>
+
+    <main>
+        <form id="formulario" method="get">
+            <fieldset id="input-inf">
+                <legend> 
+                    </h1> BMI - calc </h1>
+                </legend>
+
+
+                <label>
+                    <input id="altura" type="number" required placeholder="1.72m" step='0.01' title="Digite sua altura"/>
+                    <h2>Height </h2>
+                </label>
+
+                <label>
+                    <input id="peso" type="number" required placeholder="68kg" title="Digite seu peso"/>
+                    <h2>Weight </h2>
+                </label>
+
+                <button type="submit">Calculate </button>
+            </fieldset>
+
+
+            <section id="output">
+                <div id='imcOutput' class="">.. </div>
+            </section>
+
+        </form>
+
+
+    </main>
+
+    <script src="./src/app/app.js"> </script>
+</body>
+</html>
