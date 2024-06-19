@@ -4,7 +4,7 @@ Calcule seu IMC informando peso e altura.
 
 </br>
 
-## Ferramentas utilizadas
+## Tools
 - [Icons8](https://icons8.com/)
 - [Coolors.co](https://coolors.co/)
 
