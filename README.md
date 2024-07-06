@@ -1,7 +1,7 @@
 # About
 Calculate your BMI by entering your weight and height.
 
-[example](./assets/example.png)
+![example](./assets/example.png)
 
 </br>
 
